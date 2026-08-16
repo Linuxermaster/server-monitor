@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checar servidor
         env:
-          SERVER_URL: ${{ secrets.www.app-relatorios.joautocenter.com.br }}
+          SERVER_URL: ${{ secrets.https://www.app-relatorios.com.br }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.AAGZ_d-b3s1xmzg88qBttM65cgsiFuHqwfc }}
           TELEGRAM_CHAT_ID: ${{ secrets.8803676682 }}
         run: bash monitor.sh
